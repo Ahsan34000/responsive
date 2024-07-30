@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.logo{
+    width: 20%;
+
+}
+.container{
+   
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+.flex{
+    display: flex;
+}
+.menu{
+    display: flex;
+    padding-top: 50PX;
+    gap: 15px;
+    font-size: 12px;
+    width: 90%;
+    justify-content: flex-end;
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+   
+}
+.heading  p{
+    color: antiquewhite;
+    width: 50%;
+    
+}
+#head{
+    color: aliceblue;
+}
+.heading{
+    line-height: 1.5rem;
+    padding-top: 30px;
+    
+}
+#head{
+    padding-bottom: 15px;
+    line-height: 40px;
+
+}
+.images-munkey{
+    margin-right: 10px;
+}
+.head-2{
+    color:#bfc500 ;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Montserrate";
+
+}
+#para{
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.box-para{
+    color: white;
+    padding: 20px ;
+}
+.parent{
+    color: rgb(188, 182, 182);
+    right: 15%;
+    text-align: center;
+    border: 1px solid rgb(182, 171, 171);
+    position: absolute;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+@media screen  {
+
+    .logo {
+        width: 40%;
+    }
+    .menu{
+        font-size: 10px;
+    }
+    .parent{
+    right: 20px;
+    
+    font-size: 9px
+    }
+    .parent {
+        right: -32%;
+        font-size: 8px;
+    }
+}
